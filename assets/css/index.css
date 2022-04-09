@@ -17,6 +17,16 @@ body {
     letter-spacing: 1px;
 }
 
+button {
+    background-color: black;
+    color: #00cdce;
+    padding: 8px 15px;
+    font-size: 0.875rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
 
 /* END GLOBAL */
 
@@ -203,4 +213,140 @@ header {
     font-weight: 600;
     letter-spacing: 4px;
     padding: 15px 0;
+}
+
+
+/* BLOG */
+
+#blogs {
+    padding: 70px 0;
+}
+
+#blogs h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.blog__content {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    gap: 25px 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog__item {
+    width: 325px;
+    height: 400px;
+    margin-top: 30px;
+    background-color: #cbc9c9;
+}
+
+.blog__info {
+    padding: 0 15px;
+}
+
+.blog__item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.blog__item .blog__title {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 15px;
+    color: #00cdce;
+}
+
+.blog__item .blog__des {
+    font-size: 0.875rem;
+    padding: 15px 0;
+    letter-spacing: 1px;
+}
+
+
+/* GET MORE */
+
+#get__more {
+    text-align: center;
+}
+
+.getMore__content {
+    display: flex;
+    background-color: #00cdce;
+}
+
+.getMore__info .getMore__title {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.getMore__des {
+    font-size: 1rem;
+    padding: 0 60px;
+    padding-bottom: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+/* PORTFOLIO*/
+
+#portfolio {
+    padding: 70px 0;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.portfolio__content {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px 30px;
+}
+
+.portfolio__content img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio__item {
+    position: relative;
+}
+
+.portfolio__details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.portfolio__details h3 {
+    font-size: 1.5rem;
+    padding-top: 50px;
+    color: #00cdce;
+}
+
+.portfolio__details p {
+    font-size: 0.875rem;
+    line-height: 28px;
+}
+
+.portfolio__item:hover .portfolio__details {
+    opacity: 1;
 }
