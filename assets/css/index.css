@@ -350,3 +350,249 @@ header {
 .portfolio__item:hover .portfolio__details {
     opacity: 1;
 }
+
+
+
+/* SUBSCRIBE */
+#subscribe{
+    background: #00cdce;
+    padding: 70px 0;
+    text-align: center;
+}
+.subscribe__content{
+    width: 70%;
+    margin: 0px auto;
+}
+.click h3{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.title-w3-agile{
+    margin-bottom: 0.8em;
+    color: #000;
+    font-size: 4em;
+    font-weight: 500;
+}
+.click p {
+    font-size: 0.9rem;
+    color: #ffffff;
+    padding: 1em 11em;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .letter-sub {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .letter-sub input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+    outline: none;
+    letter-spacing: 1px;
+  }
+  .send-button {
+    text-align: center;
+  }
+  .send-button button.btn {
+    margin: 0.8em 0 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 6px 50px;
+    border: 1px solid #000;
+    background-color: #000;
+    border-radius: 0px;
+    transition: 0.5s all;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  /* OUR AGENTS */
+#our__agents{
+    padding: 70px 0;
+}
+#our__agents h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.agent__content{
+    width: 85%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px 30px;
+}
+.agent__content img{
+    display: block;
+    width: 100%;
+}
+.agent__item{
+    position: relative;
+    width: 100%;
+}
+.agent__title {
+    background-color: rgb(54, 54, 54);
+    color: #00cdce;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.agent__title h3{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #00cdce;
+}
+.agent__title p{
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.agent__socials{
+    text-align: center;
+}
+.agent__socials i{ 
+    border: solid #fff;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* MAP */
+.maps iframe{
+    width: 100%;
+}
+/* Contact */
+#contact{
+    width: 70%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+#contact h3 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 50px;
+    font-weight: 600;
+  }
+  
+  .contact__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    border: none;   
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3px;
+    border-bottom: 1px solid #00cdce;
+   
+  }
+.contact__form input:focus {
+    outline: none;
+}
+  
+  .contact__form-group button {
+    width: 100%;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: white;
+    padding: 8px 0;
+    border-radius: 3px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .contact__form-group button:hover {
+    background-color: #00cdce;
+  }
+  .contact__form-group textarea:focus{
+      outline: none;
+  }
+
+  /* FOOTER */
+  #footer{
+    padding: 2em 0;
+    background: #00cdce;
+  }
+  .footer__content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+   
+  }
+  .copy__right {
+    margin-top: 1.2em;
+    text-align: center;
+  }
+  .copy__right p {
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 25px;
+  }
+  .copy__right p a {
+    color: red;
+    text-decoration: none;
+  }
+  .bottom__head {
+    text-align: center;
+  }
+  .icon__button {
+    text-align: center;
+  }
+  .icon__button ul {
+    margin: 0;
+    padding: 0;
+  }
+  .icon__button ul li {
+    list-style: none;
+    display: inline;
+  }
+  .icon__button ul li i {
+    border: solid #fff;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin: 12px;
+    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+    cursor: pointer;
+  }
+  .icon__button ul li a {
+    list-style: none;
+    color: #fff;
+  }
